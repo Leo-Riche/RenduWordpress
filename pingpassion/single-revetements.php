@@ -6,7 +6,7 @@
  *
  * @package Ping-Passion
  */
-$dataCaractéristiques = get_fields();
+$dataCaracteristiques = get_fields();
 get_header();
 ?>
 
@@ -30,19 +30,19 @@ get_header();
 				<section class="Caracteristiques">
 					<h2>Caractéristiques :</h2>
 					<p>Rapidité :
-						<?= $dataCaractéristiques['rapidite'] ?>
+						<?= $dataCaracteristiques['rapidite'] ?>
 					</p>
 					<p>
 						Contrôle :
-						<?= $dataCaractéristiques['controle'] ?>
+						<?= $dataCaracteristiques['controle'] ?>
 					</p>
 					<p>
 						Adhérence :
-						<?= $dataCaractéristiques['adherence'] ?>
+						<?= $dataCaracteristiques['adherence'] ?>
 					</p>
 					<p>
 						Épaisseur :
-						<?= $dataCaractéristiques['epaisseur'] ?>
+						<?= $dataCaracteristiques['epaisseur'] ?>
 					</p>
 				</section>
 			</div>

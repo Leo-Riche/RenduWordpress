@@ -1,0 +1,62 @@
+.page-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-inline: 12px;
+    padding-block: 60px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+    background-color: rgb(68, 96, 132);
+    color: rgb(230, 230, 230);
+}
+
+.bois-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-inline: 40px;
+    padding-block: 60px;
+    gap: 20px;
+
+    background-color: rgb(68, 96, 132);
+    color: rgb(230, 230, 230);
+}
+
+.bois-card img {
+    width: 500px;
+    height: 500px;
+}
+
+.bois-card__content {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 20px;
+    font-size: 24px;
+}
+
+.bois-card__content h2 {
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+.bois-card__content h2>a {
+    text-decoration: none;
+    color: rgb(230, 230, 230);
+}
+
+.bois-card__content>a {
+    padding: 8px;
+    border: 2px solid rgb(23, 33, 45);
+    border-radius: 8px;
+    width: fit-content;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(88, 126, 175);
+
+    background-color: rgb(37, 52, 72);
+}
